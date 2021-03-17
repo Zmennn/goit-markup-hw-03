@@ -8,7 +8,11 @@
     --addres-second-color:rgba(255, 255, 255, 0.6);
     --second-logo-color:#000000;
 }
-*{outline: 1px solid red;}
+*{outline: 1px solid red;} 
+html{
+box-sizing: border-box;}
+*,*::after,*::before{
+  box-sizing: inherit;}
 
 body{
 font-family: 'Roboto', sans-serif;
@@ -20,7 +24,7 @@ letter-spacing: 0.03em;}
 
 /* reset styles */
 a{text-decoration: none;color: inherit;}
-.list{list-style: none;margin: 0; padding: 0; }
+.list{list-style: none; margin: 0; padding: 0; }
 h1,h2,h3,p{margin: 0;}
 
 /* all containers */
@@ -62,6 +66,10 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;}
+.header-container{border-bottom: 1px solid #ECECEC;}
+
+.nav-link{display: inline;}
+
 
 /* footer */
 .footer{background-color: var(--third-bg-color);}
