@@ -50,8 +50,9 @@ margin-right: auto;}
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-letter-spacing: 0.03em;}
-.logo{color: var(--accent-color);}
+letter-spacing: 0.03em;
+color: var(--accent-color);
+margin-right: 94px;}
 .logo-studio-black{color: var(--second-logo-color);}
 .logo-studio-white{color: var(--primery-bg-color);}
 
@@ -66,9 +67,10 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;}
-.header-container{border-bottom: 1px solid #ECECEC;}
-
-.nav-link{display: inline;}
+.header-container{border-bottom: 1px solid #ECECEC;
+padding-left: 215px;}
+.nav,.list-items,.contacts,.nav-list{display: inline-block;}
+.nav-list:not(:last-child){margin-right: 50px;color:}
 
 
 /* footer */
