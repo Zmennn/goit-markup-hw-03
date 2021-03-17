@@ -8,7 +8,7 @@
     --addres-second-color:rgba(255, 255, 255, 0.6);
     --second-logo-color:#000000;
 }
-*{outline: 1px solid red;} 
+/* *{outline: 1px solid red;}  */
 html{
 box-sizing: border-box;}
 *,*::after,*::before{
@@ -68,9 +68,10 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;}
 .header-container{border-bottom: 1px solid #ECECEC;
-padding-left: 215px;}
+}
 .nav,.list-items,.contacts,.nav-list{display: inline-block;}
-.nav-list:not(:last-child){margin-right: 50px;color:}
+.nav-list li:not(:last-child),.contacts li:not(:last-child){margin-right: 50px;}
+.contacts{margin-left: 311px;}
 
 
 /* footer */
