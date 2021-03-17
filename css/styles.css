@@ -8,7 +8,8 @@
     --addres-second-color:rgba(255, 255, 255, 0.6);
     --second-logo-color:#000000;
 }
-/* *{outline: 1px solid red;}  */
+
+/* *{outline: 1px solid red;}   */
 html{
 box-sizing: border-box;}
 *,*::after,*::before{
@@ -67,11 +68,18 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;}
-.header-container{border-bottom: 1px solid #ECECEC;
-}
-.nav,.list-items,.contacts,.nav-list{display: inline-block;}
+.header-container{
+border-bottom: 1px solid #ECECEC;
+width: 1200px;
+padding: 0px 15px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+align-items:center;
+ height: 80px; }
 .nav-list li:not(:last-child),.contacts li:not(:last-child){margin-right: 50px;}
-.contacts{margin-left: 311px;}
+.contacts{margin-left: 330px}
+.nav-list,.contacts{display: flex;}
 
 
 /* footer */
