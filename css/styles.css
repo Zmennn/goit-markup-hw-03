@@ -78,7 +78,7 @@ display: flex;
 align-items:center;
  height: 80px; }
 .nav-list li:not(:last-child),.contacts li:not(:last-child){margin-right: 50px;}
-.contacts{margin-left: 330px}
+.contacts{margin-left: auto}
 .nav-list,.contacts{display: flex;}
 
 
@@ -129,6 +129,7 @@ border:0px;}
 
 
 /*    our-features */
+.our-features-list{display: flex;}
 .our-features-subtitle{color: var(--primari-title-color);
 font-size: 14px;
 line-height: 1.14;
