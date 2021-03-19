@@ -116,7 +116,8 @@ header.section{padding: 0;}
 
 
 /* footer */
-.footer{background-color: var(--third-bg-color);}
+.footer{background-color: var(--third-bg-color);
+}
 .town{color: var(--primery-bg-color);}
 .footer-link{color: var(--addres-second-color);}
 .footer-link,.town{font-size: 14px;
@@ -178,22 +179,19 @@ text-transform: uppercase;}
 
 
 /*    specialization */
-.specialization .container{padding-top: 0;}
-.specialization ul{display: flex;}
-.specialization li:not(:last-child){margin-right: 30px;}
+.specialization{padding-top: 0;}
 .specialization-title{
 text-align: center;
 margin-bottom: 50px;
 color: var(--primari-title-color);
 font-size: 36px;
 line-height: 1.16;
-text-align: center;
 letter-spacing: 0.03em;}
 
 /*     team  */
-.team{background-color: val(--second-bg-color);}
-.team ul{display: flex;}
-.team li:not(:last-child){margin-right: 30px;}
+.team{background-color: var(--second-bg-color);}
+/* .team ul{display: flex;} */
+/* .team li:not(:last-child){margin-right: 30px;} */
 .team-title{
 margin-bottom: 50px;
 color: var(--primari-title-color);
@@ -201,14 +199,23 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;}
-.team-subtitle{color: var(--primari-title-color);
+.team-subtitle{
+margin-top: 30px;
+color: var(--primari-title-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;}
-.team-text{font-size: 16px;
+.team-text{
+margin-top: 10px;
+font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;}
+.team-item{
+padding-bottom: 30px; 
+--grid-item:4;
+background-color:var(--primery-bg-color) ;
+text-align: center;}
 
 /* main pg portfolio */
 /*     buttons */
@@ -225,12 +232,26 @@ border: 0px;
 border-radius: 4px;}
 .portfolio-button:focus,.portfolio-button:hover{background-color: var(--accent-color);color: var(--primery-bg-color);}
 
+.portfolio-list{
+display: flex;
+justify-content: center;
+margin-bottom: 50px;}
+.portfolio-button:not(:last-child){margin-right: 8px;}
+
 /*     gallery */
-.gallery h2{color: var(--primari-title-color);
+.gallery h2{
+margin-top: 20px;  
+margin-left: 24px;
+color: var(--primari-title-color);
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;}
-.gallery p{font-size: 16px;
+.gallery p{
+margin-left: 24px;
+margin-top: 4px;
+font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);}
+.gallery-border{border: 1px solid #EEEEEE;
+padding-bottom: 20px;}
